@@ -21,3 +21,9 @@ Los comandos en powershell serian: <br>
   Habilitar Paltaforma de Maquina Virtual: "dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart"<br>
 <img width="1270" height="720" alt="image" src="https://github.com/user-attachments/assets/ef8e04ea-528c-4917-94d5-6f3a42e0c006" />
 
+
+
+-Bibliografia: <br>
+1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
+2ºUso de docker: https://youtu.be/4Dko5W96WHg?si=e30LKoT5etecQzD6 <br>
+3ºUso de snipe-it: https://youtube.com/playlist?list=PLDYUG5PASucnu5yTjQv03KYJ9Pfy3Crsk&si=iykbvKjJ-J97FDDw <br>
