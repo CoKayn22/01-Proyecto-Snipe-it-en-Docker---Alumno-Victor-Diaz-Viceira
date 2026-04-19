@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: snipeit-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./logs/mysql:/var/log/mysql
+    networks:
+      - snipeit-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 5
+
+  snipeit:
+    image: snipe/snipe-it:latest
+    container_name: snipeit-app
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8000:80"
+    environment:
+      APP_KEY: ${APP_KEY}
+      APP_URL: ${APP_URL}
+      DB_CONNECTION: mysql
+      DB_HOST: mysql
+      DB_DATABASE: ${MYSQL_DATABASE}
+      DB_USERNAME: ${MYSQL_USER}
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      MAIL_DRIVER: log
+    volumes:
+      - snipeit_data:/var/lib/snipeit
+      - ./logs/snipeit:/var/log/apache2
+    networks:
+      - snipeit-net
+
+volumes:
+  mysql_data:
+  snipeit_data:
