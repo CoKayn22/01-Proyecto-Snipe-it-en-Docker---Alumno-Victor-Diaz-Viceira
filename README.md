@@ -39,7 +39,7 @@ Para crearlos se puede hacer desde la termina CMD con los comandos "cd" y "mkdir
 -Creación de archivos de configuración: <br>
 Primero se crea el archivo .env , que es donde se especifican las variables de entorno, aqui podemos especificar datos que no seria apropiado que estuvieran en el codigo principal <br>
 Ejemplos: Contraseñas de la base de datos y la APP_Key <br>
-El codigo esta subido al repositorio con el nombre: "Variables.env" <br>
+El codigo esta subido al repositorio con el nombre: ".env" <br>
 
 Segundo se crea el archivo .yaml , que sirve para definir la estructura. <br>
 Ejemplos: Datos de como va a ser la base de datos, la imagen y como la vamos a configurar y el entorno. <br>
@@ -58,7 +58,7 @@ Hashes: Esto sirve para convertir un dato en una cadena fija de caracteres. Ej: 
 Como sacamos la APP_KEY? <br>
 Pues necesitamos tener nuestro docker-desktop abierto y preparado y ejecutar el siguiente comando: "docker run --rm snipe/snipe-it php artisan key:generate --show" y nos mostrara esta imagen: <br>
 <img width="1113" height="626" alt="image" src="https://github.com/user-attachments/assets/67309330-dcf2-42ab-b16a-c36528bd8391" /> <br>
-Guardamos la APP_KEY y la ponemos en el archivo de "Variables.env" en su correspondiente variable. <br> 
+Guardamos la APP_KEY y la ponemos en el archivo de ".env" en su correspondiente variable. <br> 
 <img width="771" height="106" alt="image" src="https://github.com/user-attachments/assets/47c440dd-3d56-4076-8566-7573d63e608d" /> <br> 
 
 Bibliografia: <br>
