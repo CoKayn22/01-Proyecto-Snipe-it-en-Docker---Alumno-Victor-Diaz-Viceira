@@ -64,7 +64,19 @@ Guardamos la APP_KEY y la ponemos en el archivo de ".env" en su correspondiente 
 -Inicio de contenedor: <br>
 Vamos a nuestra terminal, en mi caso estoy utilizando powershell y ejecutamos el comando "docker compose up -d" , que esto levanta los contenedores en ese directorio, es importante ejecutarlo en el directorio donde tenemos los archivos de configuración. <br>
 Al ejecutar se hace lo que hemos especificado en el archivo .yml , por lo que se descarga la imagen de mysql y de snipet de la url que especificamos en el archivo. <br>
-<img width="1097" height="187" alt="image" src="https://github.com/user-attachments/assets/0912caf1-c1b5-4932-a89b-20938ae33bcb" />
+<img width="1097" height="187" alt="image" src="https://github.com/user-attachments/assets/0912caf1-c1b5-4932-a89b-20938ae33bcb" /> <br>
+
+Nos conectamos de manera local para terminar de configurar snipe-it, desde un navegado nos conectamos a "http://localhost:8000/" y empezamos con la creación de la base de datos. <br> 
+<img width="1899" height="1027" alt="image" src="https://github.com/user-attachments/assets/b6373507-34e5-4e53-b96e-52e547cb7f05" /> <br>
+
+Especificamos que queremos crear la base de datos y continuar para crear el Usuario Admin <br>
+<img width="930" height="519" alt="image" src="https://github.com/user-attachments/assets/14fc4f20-4bc1-4624-8b32-f8826bcc03e9" /> <br>
+
+Ahora especificamos la configuracón de nuestro admin user y apartados de snipe-it como el idioma o la divisia. <br>
+<img width="918" height="858" alt="image" src="https://github.com/user-attachments/assets/32ce1e0c-5168-4b51-97c9-4f02d2c5d495" /> <br>
+
+Una vez creado ya tendriamos la primera versión de snipe-it, ahora tendriamos que añadir inventario y adaptarlo a la empresa para comprobar sus capacidades. <br>
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/d6fd03c0-4d4e-418e-afe3-b71d56a8e8e3" /> <br>
 
 
 Bibliografia: <br>
