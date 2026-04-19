@@ -34,9 +34,16 @@ Preparación de contenedor: <br>
 -Creación de carpetas: <br>
 Creamos el directorio "tfg-snipeit" que sera el directorio principal y despues las subcarpetas que son "logs", "myslq" y "snipe-it" <br>
 Para crearlos se puede hacer desde la termina CMD con los comandos "cd" y "mkdir". Ejemplo: "cd C:\tfg-snipeit" "mkdir mysql" <br>
+<img width="705" height="297" alt="image" src="https://github.com/user-attachments/assets/8f302f43-9e9a-4e39-9416-e51b901ca9f1" />
 
+-Creación de archivos de configuración: <br>
+Primero se crea el archivo .env , que es donde se especifican las variables de entorno, aqui podemos especificar datos que no seria apropiado que estuvieran en el codigo principal <br>
+Ejemplos: Contraseñas de la base de datos y la APP_Key <br>
 
--Bibliografia: <br>
+Segundo se crea el archivo .yaml , que sirve para definir la estructura. <br>
+Ejemplos: Datos de como va a ser la base de datos, la imagen y como la vamos a configurar y el entorno. <br>
+
+Bibliografia: <br>
 1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
 2ºUso de docker: https://youtu.be/4Dko5W96WHg?si=e30LKoT5etecQzD6 <br>
 3ºUso de snipe-it: https://youtube.com/playlist?list=PLDYUG5PASucnu5yTjQv03KYJ9Pfy3Crsk&si=iykbvKjJ-J97FDDw <br>
