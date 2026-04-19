@@ -55,6 +55,12 @@ Conceptos:<br>
 Laravel: Es una herramienta que tiene contenido de base, como por ejemplo para no crear una pagina de web desde cero, como la de snipe-it <br>
 Hashes: Esto sirve para convertir un dato en una cadena fija de caracteres. Ej: hola123  →  3d91b585 <br>
 
+Como sacamos la APP_KEY? <br>
+Pues necesitamos tener nuestro docker-desktop abierto y preparado y ejecutar el siguiente comando: "docker run --rm snipe/snipe-it php artisan key:generate --show" y nos mostrara esta imagen: <br>
+<img width="1113" height="626" alt="image" src="https://github.com/user-attachments/assets/67309330-dcf2-42ab-b16a-c36528bd8391" /> <br>
+Guardamos la APP_KEY y la ponemos en el archivo de "Variables.env" en su correspondiente variable. <br> 
+<img width="771" height="106" alt="image" src="https://github.com/user-attachments/assets/47c440dd-3d56-4076-8566-7573d63e608d" /> <br> 
+
 Bibliografia: <br>
 1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
 2ºUso de docker: https://youtu.be/4Dko5W96WHg?si=e30LKoT5etecQzD6 <br>
