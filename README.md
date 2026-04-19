@@ -45,7 +45,19 @@ Segundo se crea el archivo .yaml , que sirve para definir la estructura. <br>
 Ejemplos: Datos de como va a ser la base de datos, la imagen y como la vamos a configurar y el entorno. <br>
 El codigo esta subido al repositorio con el nombre: "Docker-compose.yml" <br>
 
+Que es una APP_KEY ? <br>
+-Por estas razones es importante que tu aplicación tenga una APP_KEY: <br>
+1ºCifra los datos Sensibles, es decir protege la informacion que se almacena en ella como datos internos o contraseñas. <br>
+2ºFirma las sesiones y cookies, es decir otro usuario no puedo influir en la sesion de otro usuario. <br>
+3ºSeguridad general de Laravel, utiliza para generar hashes y validar ciertos datos internos <br>
+
+Conceptos:<br>
+Laravel: Es una herramienta que tiene contenido de base, como por ejemplo para no crear una pagina de web desde cero, como la de snipe-it <br>
+Hashes: Esto sirve para convertir un dato en una cadena fija de caracteres. Ej: hola123  →  3d91b585 <br>
+
 Bibliografia: <br>
 1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
 2ºUso de docker: https://youtu.be/4Dko5W96WHg?si=e30LKoT5etecQzD6 <br>
 3ºUso de snipe-it: https://youtube.com/playlist?list=PLDYUG5PASucnu5yTjQv03KYJ9Pfy3Crsk&si=iykbvKjJ-J97FDDw <br>
+
+
