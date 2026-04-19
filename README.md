@@ -61,6 +61,12 @@ Pues necesitamos tener nuestro docker-desktop abierto y preparado y ejecutar el 
 Guardamos la APP_KEY y la ponemos en el archivo de ".env" en su correspondiente variable. <br> 
 <img width="771" height="106" alt="image" src="https://github.com/user-attachments/assets/47c440dd-3d56-4076-8566-7573d63e608d" /> <br> 
 
+-Inicio de contenedor: <br>
+Vamos a nuestra terminal, en mi caso estoy utilizando powershell y ejecutamos el comando "docker compose up -d" , que esto levanta los contenedores en ese directorio, es importante ejecutarlo en el directorio donde tenemos los archivos de configuración. <br>
+Al ejecutar se hace lo que hemos especificado en el archivo .yml , por lo que se descarga la imagen de mysql y de snipet de la url que especificamos en el archivo. <br>
+<img width="1097" height="187" alt="image" src="https://github.com/user-attachments/assets/0912caf1-c1b5-4932-a89b-20938ae33bcb" />
+
+
 Bibliografia: <br>
 1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
 2ºUso de docker: https://youtu.be/4Dko5W96WHg?si=e30LKoT5etecQzD6 <br>
