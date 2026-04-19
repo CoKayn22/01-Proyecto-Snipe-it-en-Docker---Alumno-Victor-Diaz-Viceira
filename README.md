@@ -39,9 +39,11 @@ Para crearlos se puede hacer desde la termina CMD con los comandos "cd" y "mkdir
 -Creación de archivos de configuración: <br>
 Primero se crea el archivo .env , que es donde se especifican las variables de entorno, aqui podemos especificar datos que no seria apropiado que estuvieran en el codigo principal <br>
 Ejemplos: Contraseñas de la base de datos y la APP_Key <br>
+El codigo esta subido al repositorio con el nombre: "Variables.env" <br>
 
 Segundo se crea el archivo .yaml , que sirve para definir la estructura. <br>
 Ejemplos: Datos de como va a ser la base de datos, la imagen y como la vamos a configurar y el entorno. <br>
+El codigo esta subido al repositorio con el nombre: "Docker-compose.yml" <br>
 
 Bibliografia: <br>
 1ºInstalación Docker: https://youtu.be/kE90WHPqo90?si=Ca3yudmmeTyfWnz5 <br>
